@@ -1,0 +1,105 @@
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.form{
+    width:460px;
+    /* border: 1px solid red; */
+    height: 550px;
+   margin-left: 450px;
+    background-color: rgb(255, 250, 250);
+    margin-top: 100px;
+}
+.logodiv{
+    position: absolute;
+   margin-left: 600px;
+   border-radius: 50%;
+   width: 120px;
+   height: 120px;
+    border: 5px solid white;
+   margin-top: 30px;
+
+}
+.profileimg{
+   width: 100%;
+   height: 100%;
+   border-radius: 50%;
+    z-index:2;
+}
+.pencildiv{
+
+    /* background-color: white; */
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-left: 90px;
+    margin-top: -45px;
+    z-index: 1;
+}
+.pencildiv>img{
+
+    border: 3px solid white;
+    background-color: white;
+    width: 73%;
+    height: 73%;
+    border-radius: 50%;
+   
+}
+input{
+    padding: 12px;
+    width: 400px;
+   gap: 1px;
+    margin-left: 10px;
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+    border: none;
+    
+}::placeholder{
+   margin-left: 10px;
+   color: rgb(173, 173, 173);
+}
+input:focus{
+    outline: none;
+}
+
+.formbox{
+    width: 450px;
+    /* border: 1px solid green; */
+    margin: auto;
+    margin-top: 28px;
+}
+.personal_information{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+p{
+    font-size: 12px;
+    margin-left: 10px;
+    margin-bottom: 20px;
+}
+
+.button_blue{
+    padding: 12px;
+    width: 425px;
+    background-color: red;
+    color: #ffffff;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: none;
+}
+
+.topname{
+    margin-left: 10px;
+    width: 430px;
+    /* border: 1px solid green; */
+    height: 40px;
+     box-shadow: 0 0 5pt 0.5pt #D3D3D3;
+     border-radius: 5px;
+     font-size: 23px;
+     color: red;
+     text-align: center;
+     margin-top: 90px;
+}
